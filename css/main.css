@@ -37,12 +37,57 @@ a:hover{
 
 
 
+#page_title, h3{
+	clear: both;
+	color: #444444;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px 2px #FFFFFF; 
+}
+
+
 .intro_paragraph{
 	text-align: justify;
-	
+	margin: 10px 0px 40px 0px;
 	/*text-indent: 20px;*/
 	line-height: 1.55; 
 	color: #000000;
+}
+
+
+
+.list-title{
+	width:230px;
+	color: #4D4DFF;
+	background-color: #FFFFFF;
+	padding-left: 5px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #000000;
+	-moz-box-shadow: 5px 5px 10px #444444;
+	-op-box-shadow: 5px 5px 10px #444444;
+	-webkit-box-shadow: 5px 5px 10px #444444;
+	box-shadow:5px 5px 10px #444444;
+	
+}
+
+
+
+#features{
+	background-color: #FFFFFF;
+	width: 210px;
+	padding: 5px 0px 5px 25px;
+	margin:0px 0px 10px 0px;
+	-moz-box-shadow: 5px 5px 10px #444444;
+	-op-box-shadow: 5px 5px 10px #444444;
+	-webkit-box-shadow: 5px 5px 10px #444444;
+	box-shadow:5px 5px 10px #444444;
+}
+
+
+
+#feature-table{
+	float: right;
+	margin: 0px 10px 0px 10px;
+
 }
 
 
@@ -54,23 +99,31 @@ li{
 
 
 #gallery{
+	border-radius: 8px;
+	padding-left: 0px;
+	overflow: hidden;
+	border: 1px dashed #444444;
+	background-image: url(../images/bg-gallery.jpg);
 	list-style-type: none;
+	width: 718px;
+	height: 312px;
+}
+
+#gallery li{
+	padding: 10px 25px 0px 20px;
+	float: left;
 }
 
 
 
 body {
+	width: 720px;
+	margin:0 auto;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #C2D1FF;
 }
 
 
-
-#page_title, h1, h2, h3{
-	text-indent: 20px;
-	color: #444444;
-	text-shadow: 1px 1px 2px #FFFFFF; 
-}
 
 
 
@@ -82,7 +135,15 @@ footer p{
 	
 	
 .alert{
-	text-shadow: 2px 2px 5px #000000;
-	color: #FFFFFF;
+	text-align: right;
+	width: 210px;
+	font-size: 75%;
+	margin: 10px 0px 5px 0px;
+	text-shadow: 2px 2px 3px #FFFFFF;
+	color: #000000;
 }
+
+
+
+
 
