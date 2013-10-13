@@ -8,26 +8,15 @@
 	Dark Grey				#444444
 	Listed Blue				#4D4DFF
 	Black					#000000
--------------------------------------------------------------*/
-
+-------------------------------------------------------------------*/
+/*------------------------PAGE LINK APPEARANCE---------------------*/
 a:link{
+	color: #4D4DFF;
 	text-decoration: none;
 }
-
-
-
 a:active{
 	color: #FFFFFF;
 }
-
-
-
-a:visited{
-	color: #F03000;
-}
-
-
-
 a:hover{
 	text-decoration: underline;
 	font-size: 105%;
@@ -35,17 +24,43 @@ a:hover{
 	color: #FFFFFF;
 }
 
+/*-----------------------------------------------------------------*/
+/*------------------------TOP BANNER NAV---------------------------*/
+nav{
+background-color: #4D4DFF;
+}
+nav ul{
+	text-align: right;
+	width: 720px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #4D4DFF;
+	list-style-type: none;
+}
 
-
-#page_title, h3{
+/*-----------------------------------------------------------------*/
+/*------------------------NAV LINK APPEARANCE----------------------*/
+#nav a:link{
+	color:white;
+}
+#nav a:visited{
+	color:#FFFFFF;
+}
+/*-----------------------------------------------------------------*/
+/*------------------------INTRO PARAGRAPH--------------------------*/
+#page_title{
+	font-size: 225%;
+	margin-top: 0px;
+	line-height: 20px;
 	clear: both;
 	color: #444444;
 	margin-bottom: 10px;
 	text-shadow: 1px 1px 2px #FFFFFF; 
 }
-
-
 .intro_paragraph{
+	border-radius: 8px;
+	padding: 3px 5px 3px 5px;
+	background-image: url(../images/paper-bg.jpg);
 	text-align: justify;
 	margin: 10px 0px 40px 0px;
 	/*text-indent: 20px;*/
@@ -55,11 +70,25 @@ a:hover{
 
 
 
+
+#external-links a:visited{
+	color: #F03000;
+}
+
+
+
+
+
+
+
+
+
+
 .list-title{
 	width:230px;
-	color: #4D4DFF;
-	background-color: #FFFFFF;
-	padding-left: 5px;
+	color: #000000;
+	background-color: #ffa900;
+	padding: 5px 0px 0px 5px;
 	margin-bottom: 0px;
 	border-bottom: 1px solid #000000;
 	-moz-box-shadow: 5px 5px 10px #444444;
@@ -72,7 +101,8 @@ a:hover{
 
 
 #features{
-	background-color: #FFFFFF;
+	color: #000000;
+	background-color: #ffa900;
 	width: 210px;
 	padding: 5px 0px 5px 25px;
 	margin:0px 0px 10px 0px;
@@ -87,15 +117,7 @@ a:hover{
 #feature-table{
 	float: right;
 	margin: 0px 10px 0px 10px;
-
 }
-
-
-
-li{
-	color: #4D4DFF;
-}
-
 
 
 #gallery{
@@ -116,11 +138,19 @@ li{
 
 
 
-body {
+#main-content {
+	margin: 0 auto;
+	border: 20px solid #C2D1FF;
 	width: 720px;
-	margin:0 auto;
-	font-family: 'Open Sans', sans-serif;
 	background-color: #C2D1FF;
+}
+
+body{
+	
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	background-color: #white;
 }
 
 
@@ -128,6 +158,7 @@ body {
 
 
 footer p{
+	padding-right: 30px;
 	text-align: right;
 	color: #000000;
 }
@@ -142,6 +173,15 @@ footer p{
 	text-shadow: 2px 2px 3px #FFFFFF;
 	color: #000000;
 }
+h3{
+	font-size: 225%;
+	margin-top: 0px;
+	background-color: #e3e3e3;
+	border-bottom: 1px solid black;
+	clear: both;
+	color: #444444;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px 2px #FFFFFF;
 
 
 
