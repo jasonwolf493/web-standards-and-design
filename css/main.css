@@ -135,12 +135,15 @@ nav ul li{
 #gallery{
 	border-radius: 8px;
 	padding-left: 0%;
-	overflow: hidden;
+	overflow: auto;
 	border: 1px dashed #444444;
 	background-image: url(../images/bg-gallery.jpg);
 	list-style-type: none;
 	width:  99.722222%;/*718px;*/
 	height: 312px;
+}
+
+img{max-width:100%; /*Scale is distorted*/
 }
 
 #gallery li{
@@ -169,7 +172,6 @@ body{
 	padding: 0%;
 	background-color: #FFFFFF;
 }
-
 
 
 
