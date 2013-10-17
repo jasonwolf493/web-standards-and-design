@@ -26,9 +26,12 @@ a:hover{
 
 
 nav{
-width: 760px;
-margin: 0 auto;
-background-color: #4D4DFF;
+	background-image: url(../images/nav-bg.jpg);
+	background-repeat: x;
+	overflow: hidden;
+	width: 760px;
+	margin: 0 auto;
+	background-color: #4D4DFF;
 }
 nav ul{
 	text-align: right;
@@ -37,6 +40,11 @@ nav ul{
 	padding: 0;
 	background-color: #4D4DFF;
 	list-style-type: none;
+}
+
+nav ul li{
+	padding: 0px 20px;
+	float: right;
 }
 
 
@@ -65,6 +73,11 @@ nav ul{
 	/*text-indent: 20px;*/
 	line-height: 1.55; 
 	color: #000000;
+}
+
+.column{
+	clear: both;
+	-moz-column-count: 3;
 }
 
 
@@ -133,6 +146,9 @@ nav ul{
 #gallery li{
 	padding: 10px 25px 0px 20px;
 	float: left;
+}
+#gallery li:hover{
+	opacity: 0.5;
 }
 
 
