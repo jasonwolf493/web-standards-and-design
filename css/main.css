@@ -38,7 +38,6 @@ nav ul{
 	width: 94.736842%;/*720px;*/
 	margin: 0% auto;
 	padding: 0%;
-	background-color: #4D4DFF;
 	list-style-type: none;
 }
 
@@ -58,7 +57,6 @@ nav ul li{
 #page_title{
 	font-size: 2.25em;
 	margin-top: 0%;
-	line-height: 20px;
 	clear: both;
 	color: #444444;
 	margin-bottom: 1.466276%;/*10px;*/
@@ -66,6 +64,7 @@ nav ul li{
 }
 .intro_paragraph{ /*672px wide*/
 	border-radius: 8px;
+	-moz-column-count: 3;
 	padding:  .446429% .744048% .446429% .744048%;/*3px 5px 3px 5px;*/
 	background-image: url(../images/paper-bg.jpg);
 	text-align: justify;
@@ -76,8 +75,7 @@ nav ul li{
 }
 
 .column{
-	clear: both;
-	-moz-column-count: 3;
+	clear: none;
 }
 
 
@@ -113,6 +111,7 @@ nav ul li{
 
 
 #features{
+	max-width: 100%; /*225px;*/
 	color: #000000;
 	background-color: #ffa900;
 	width: 91.304348%;/*210px;*/
@@ -127,6 +126,7 @@ nav ul li{
 
 
 #feature-table{
+	max-width: 233px;
 	float: right;
 	margin: 0% 4.444444% 0% 4.444444%; /*10px=4.4444%*/
 }
@@ -201,6 +201,33 @@ h3{
 	color: #444444;
 	margin-bottom:  1.388889%  /*10px;*/
 	text-shadow: 1px 1px 2px #FFFFFF;
+	}
+	
+	
+	@media screen and (max-width: 980px){
+	
+	}
+	
+	@media screen and (max-width: 700px){
+		.intro_paragraph{
+			-moz-column-count: 2;
+		}
+
+	}
+	
+	@media screen and (max-width: 480px){
+		#gallery{
+			display: none;
+		}
+		
+		#feature-table{
+			float: none;
+		}
+		#nav_div{background-color: #C2D1FF;}
+		nav{/*width: 33%;*/	margin: 0% 0%;}
+		.intro_paragraph{
+			-moz-column-count: 1;
+		}
 	}
 
 
