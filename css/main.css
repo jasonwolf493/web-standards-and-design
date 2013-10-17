@@ -29,21 +29,21 @@ nav{
 	background-image: url(../images/nav-bg.jpg);
 	background-repeat: x;
 	overflow: hidden;
-	width: 760px;
-	margin: 0 auto;
+	width: 100%;/*720px;*/
+	margin: 0% auto;
 	background-color: #4D4DFF;
 }
 nav ul{
 	text-align: right;
-	width: 720px;
-	margin: 0 auto;
-	padding: 0;
+	width: 94.736842%;/*720px;*/
+	margin: 0% auto;
+	padding: 0%;
 	background-color: #4D4DFF;
 	list-style-type: none;
 }
 
 nav ul li{
-	padding: 0px 20px;
+	padding: 0% 2.932551%;/*0px 20px;*/
 	float: right;
 }
 
@@ -57,19 +57,19 @@ nav ul li{
 
 #page_title{
 	font-size: 2.25em;
-	margin-top: 0px;
+	margin-top: 0%;
 	line-height: 20px;
 	clear: both;
 	color: #444444;
-	margin-bottom: 10px;
+	margin-bottom: 1.466276%;/*10px;*/
 	text-shadow: 1px 1px 2px #FFFFFF; 
 }
-.intro_paragraph{
+.intro_paragraph{ /*672px wide*/
 	border-radius: 8px;
-	padding: 3px 5px 3px 5px;
+	padding:  .446429% .744048% .446429% .744048%;/*3px 5px 3px 5px;*/
 	background-image: url(../images/paper-bg.jpg);
 	text-align: justify;
-	margin: 10px 0px 40px 0px;
+	margin: 1.466276% 0% 5.865103% 0%; /*10px 0px 40px 0px;*/
 	/*text-indent: 20px;*/
 	line-height: 1.55; 
 	color: #000000;
@@ -97,11 +97,11 @@ nav ul li{
 
 
 .list-title{
-	width:230px;
+	width: 100%;/*230px;*/
 	color: #000000;
 	background-color: #ffa900;
-	padding: 5px 0px 0px 5px;
-	margin-bottom: 0px;
+	padding: 2.173913% 0% 0% 2.173913%;/*5px 0px 0px 5px;*/
+	margin-bottom: 0%;
 	border-bottom: 1px solid #000000;
 	-moz-box-shadow: 5px 5px 10px #444444;
 	-op-box-shadow: 5px 5px 10px #444444;
@@ -115,9 +115,9 @@ nav ul li{
 #features{
 	color: #000000;
 	background-color: #ffa900;
-	width: 210px;
-	padding: 5px 0px 5px 25px;
-	margin:0px 0px 10px 0px;
+	width: 91.304348%;/*210px;*/
+	padding: 2.380952% 0% 2.380952% 11.904762%; /*5px 0px 5px 25px;*/
+	margin: 0% 0% 4.761905% 0%;/*0px 0px 10px 0px;*/
 	-moz-box-shadow: 5px 5px 10px #444444;
 	-op-box-shadow: 5px 5px 10px #444444;
 	-webkit-box-shadow: 5px 5px 10px #444444;
@@ -128,23 +128,23 @@ nav ul li{
 
 #feature-table{
 	float: right;
-	margin: 0px 10px 0px 10px;
+	margin: 0% 4.444444% 0% 4.444444%; /*10px=4.4444%*/
 }
 
 
 #gallery{
 	border-radius: 8px;
-	padding-left: 0px;
+	padding-left: 0%;
 	overflow: hidden;
 	border: 1px dashed #444444;
 	background-image: url(../images/bg-gallery.jpg);
 	list-style-type: none;
-	width: 718px;
+	width:  99.722222%;/*718px;*/
 	height: 312px;
 }
 
 #gallery li{
-	padding: 10px 25px 0px 20px;
+	padding: 1.012048% 0% 0% 3.004096%;/*10px 0px 0px 20px;*/
 	float: left;
 }
 #gallery li:hover{
@@ -154,17 +154,19 @@ nav ul li{
 
 
 #main-content {
-	margin: 0 auto;
-	border: 20px solid #C2D1FF;
-	width: 720px;
+	margin: 0% auto;
+	border: 19px solid #C2D1FF;
+	width: 94.736842%;/*720px;*/
 	background-color: #C2D1FF;
 }
 
 body{
-	
-	margin: 0;
+	max-width:720px;
+	font-size: 100%;
+	width: 100%;/*720px;*/
+	margin: 0% auto;
 	font-family: 'Open Sans', sans-serif;
-	padding: 0px;
+	padding: 0%;
 	background-color: #FFFFFF;
 }
 
@@ -173,7 +175,7 @@ body{
 
 
 footer p{
-	padding-right: 30px;
+	padding-right: 4.166667%;/*30px;*/
 	text-align: right;
 	color: #000000;
 }
@@ -184,18 +186,18 @@ footer p{
 	text-align: right;
 	width: 210px;
 	font-size: 0.75em;
-	margin: 10px 0px 5px 0px;
+	margin: 4.761905% 0% 2.380952% 0%;/*10px 0px 5px 0px;*/
 	text-shadow: 2px 2px 3px #FFFFFF;
 	color: #000000;
 }
 h3{
 	font-size: 2.25em;
-	margin-top: 0px;
+	margin-top: 0%;
 	background-color: #e3e3e3;
 	border-bottom: 1px solid black;
 	clear: both;
 	color: #444444;
-	margin-bottom: 10px;
+	margin-bottom:  1.388889%  /*10px;*/
 	text-shadow: 1px 1px 2px #FFFFFF;
 	}
 
