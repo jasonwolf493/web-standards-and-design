@@ -211,12 +211,38 @@ h3{
 	
 	
 	@media screen and (max-width: 980px){
-	
+		body{
+			background-color:red;
+		}
+		footer p{
+			text-align: left;
+		}
+		nav li{
+			margin-right: 20px;
+		}
 	}
 	
 	@media screen and (max-width: 700px){
 		.intro_paragraph{
 			-moz-column-count: 2;
+		}
+		#gallery{
+			float:right;
+			width: 55%;
+			height: 205px;
+		}
+		h3{
+			clear:none;
+		}
+		
+		#gallery img{
+			padding-left: 20px;
+		}
+		
+		.links_div{
+			clear: none;
+			width: 40%;
+			text-align: top left;
 		}
 
 	}
@@ -229,6 +255,8 @@ h3{
 		#feature-table{
 			float: none;
 		}
+		
+		.links_div{width:100%;}
 		
 		#nav_div{
 		background-color: #C2D1FF;
