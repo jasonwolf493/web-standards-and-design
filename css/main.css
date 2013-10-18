@@ -14,9 +14,11 @@ a:link{
 	color: #4D4DFF;
 	text-decoration: none;
 }
+
 a:active{
 	color: #FFFFFF;
 }
+
 a:hover{
 	text-decoration: underline;
 	font-size: 1.05em;
@@ -33,6 +35,7 @@ nav{
 	margin: 0% auto;
 	background-color: #4D4DFF;
 }
+
 nav ul{
 	text-align: right;
 	width: 94.736842%;/*720px;*/
@@ -50,6 +53,7 @@ nav ul li{
 #nav a:link{
 	color:white;
 }
+
 #nav a:visited{
 	color:#FFFFFF;
 }
@@ -62,6 +66,7 @@ nav ul li{
 	margin-bottom: 1.466276%;/*10px;*/
 	text-shadow: 1px 1px 2px #FFFFFF; 
 }
+
 .intro_paragraph{ /*672px wide*/
 	border-radius: 8px;
 	-moz-column-count: 3;
@@ -150,6 +155,7 @@ img{max-width:100%; /*Scale is distorted*/
 	padding: 1.012048% 0% 0% 3.004096%;/*10px 0px 0px 20px;*/
 	float: left;
 }
+
 #gallery li:hover{
 	opacity: 0.5;
 }
@@ -186,7 +192,7 @@ footer p{
 	
 .alert{
 	text-align: right;
-	width: 210px;
+	width: 100%;/*210px;*/
 	font-size: 0.75em;
 	margin: 4.761905% 0% 2.380952% 0%;/*10px 0px 5px 0px;*/
 	text-shadow: 2px 2px 3px #FFFFFF;
@@ -223,8 +229,15 @@ h3{
 		#feature-table{
 			float: none;
 		}
-		#nav_div{background-color: #C2D1FF;}
-		nav{/*width: 33%;*/	margin: 0% 0%;}
+		
+		#nav_div{
+		background-color: #C2D1FF;
+		}
+		
+		nav{
+			margin: 0% 0%;
+		}
+		
 		.intro_paragraph{
 			-moz-column-count: 1;
 		}
