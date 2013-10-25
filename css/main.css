@@ -26,6 +26,62 @@ a:hover{
 	color: #FFFFFF;
 }
 
+th{
+	text-align: left;
+	background-color: #444444;
+	color: #FFFFFF;
+	padding: 0.3em
+}
+
+.odd_row{
+	background-color: #999999;
+}
+
+#form_wrapper{
+	max-width: 41%;
+
+}
+
+label{
+	overflow: visible;
+}
+
+input:hover{
+	border: 1px solid #444444;
+}
+
+input:focus{
+	border: 1px solid #4D4DFF;
+}
+
+
+input{
+	margin: 2px;
+	border:1px solid #999999;
+	background-color: #FFFFFF;
+	float: right;
+	max-width: 100%;
+}
+
+button{
+	margin-left:125px;
+}
+
+table{
+	clear: both;
+	border-collapse: collapse;
+	border: 1px solid #000000;
+}
+
+.form{
+	background-color: #FFFFFF;
+	overflow: auto;
+	}
+
+td{
+	border: 1px solid #000000;
+	padding: 0.3em;
+}
 
 nav{
 	background-image: url(../images/nav-bg.jpg);
@@ -212,7 +268,7 @@ h3{
 	
 	@media screen and (max-width: 980px){
 		body{
-			background-color:red;
+			background-color:#4D4DFF;
 		}
 		footer p{
 			text-align: left;
@@ -243,6 +299,19 @@ h3{
 			clear: none;
 			width: 40%;
 			text-align: top left;
+		}
+		#form_wrapper{
+			width: 155px;
+		}
+		
+		input{
+			margin-bottom: 10px;
+		}
+		
+		button{
+			margin-left: 95px;
+			margin-bottom: 10px;
+		
 		}
 
 	}
